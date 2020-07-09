@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.0169999999999995" tests="6" failures="6">
+  <testsuite name="Root Suite" timestamp="2020-07-09T04:16:37" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="patient medical records test" timestamp="2020-07-09T04:16:37" tests="6" file="/projects/challenge/test/test.js" failures="6" time="4.0169999999999995">
+    <testcase name="patient medical records test Should render the filter view initially" time="0.128" classname="Should render the filter view initially">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at Context.<anonymous> (test/test.js:48:54)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="patient medical records test Should not start fetching the data if the disabled value is selected in the select menu" time="0.073" classname="Should not start fetching the data if the disabled value is selected in the select menu">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at Context.<anonymous> (test/test.js:55:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="patient medical records test Should show the loader when a valid value is selected from the select dropdown" time="0.162" classname="Should show the loader when a valid value is selected from the select dropdown">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at Context.<anonymous> (test/test.js:68:54)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="patient medical records test Should render the profile view with user data when the data is fetched" time="1.382" classname="Should render the profile view with user data when the data is fetched">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at setupTable (test/utils.js:73:49)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="patient medical records test Should render the table data correctly when the data is fetched" time="1.138" classname="Should render the table data correctly when the data is fetched">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at setupTable (test/utils.js:73:49)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+    <testcase name="patient medical records test Should fetch and render table data when the selected patient changes" time="1.134" classname="Should fetch and render table data when the selected patient changes">
+      <failure message="expected true to be false" type="AssertionError"><![CDATA[AssertionError: expected true to be false
+    at setupTable (test/utils.js:73:49)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
