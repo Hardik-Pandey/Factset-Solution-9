@@ -9,6 +9,8 @@
     <!--You can load all the css files here -->
     <link rel="stylesheet" type="text/css" href="css/select.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--You can load all the javascript files here-->
+    <script defer type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
@@ -23,6 +25,7 @@
     <section class="flex select-form-container" id="patient-filter">
         <div class="select">
             <select id="patient-select">
+            <!-- <select id="patient-select" onchange="document.getElementById('loader-view').style.display = 'block';"> -->
                 <option selected disabled value="-1">Select User</option>
                 <option value="1">John Oliver</option>
                 <option value="2">Bob Martin</option>
@@ -36,7 +39,7 @@
         </button>
     </section>
 
-    <div id="loader-view">
+    <div id="loader-view" style="display: none;">
         <section class="loader-container">
             <span class="loader"></span>
         </section>
@@ -56,7 +59,5 @@
     </section>
 </div>
 
-<!--You can load all the javascript files here-->
-<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
