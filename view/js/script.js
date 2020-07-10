@@ -26,9 +26,9 @@ function showDetails(e) {
             for(var i = 0; i < arr.length; i++) {
                 var d = new Date(arr[i].timestamp);
                 document.getElementById("table-body").innerHTML += 
-                "<tr><td>" + arr[i].id + "</td>" + 
-                "<td>" + d.getDate() +'/' + (d.getMonth() + 1) + '/' + d.getFullYear() + "</td>" +
-                "<td>" + arr[i].diagnosis.name + "</td>" +
+                "<tr><td>" + (i + 1) + "</td>" + 
+                "<td>" + (d.getDate() < 10 ? '0' : '') + d.getDate() +'/' + ((d.getMonth() + 1) < 10 ? '0' : '') + (d.getMonth() + 1) + '/' + d.getFullYear() + "</td>" +
+                "<td>" + arr[i].diagnosis.name + "("  + arr[i].diagnosis.id + ")</td>" +
                 "<td>" + arr[i].meta.weight + "</td>" +
                 "<td>" + arr[i].doctor.name + "</td></tr>";
             }
